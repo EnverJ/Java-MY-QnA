@@ -32,6 +32,9 @@ public class filteringList {
         System.out.println("longName = " + nameFiltering());
         System.out.println("longAge = " + filteringAge());
         System.out.println(filteringAgeList(List.of(34,56,13,67,89),80));
+//        longName = [Turghun, Naman]
+//        longAge = [35, Old]
+//        [89]
 
     }
 

@@ -21,6 +21,8 @@ public class MaxMin {
     public static void main(String[] args) {
         System.out.println("max = " + maxValue());
         System.out.println("min = " + minValue());
+//        max = 87
+//        min = 12
 
 
     }

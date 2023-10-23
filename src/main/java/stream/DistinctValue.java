@@ -16,5 +16,6 @@ public class DistinctValue {
 
     public static void main(String[] args) {
         System.out.println("distinctValue is = " + distinctNum());
+        //distinctValue is = [1, 2, 3, 4, 5, 6, 7]
     }
 }

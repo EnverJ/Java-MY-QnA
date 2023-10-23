@@ -5,13 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e59f130-7a83-41fe-bd97-6304ebfe8fbe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/stream/DistinctValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stream/FilterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stream/MappingTransforming.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stream/MaxMin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stream/filteringList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generic/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/json/simpleJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stream/CombineElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stream/FlatteringNestedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stream/LimitingResults.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stream/ParallelProcessing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stream/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stream/Sorting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stream/DistinctValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stream/DistinctValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stream/MappingTransforming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stream/MappingTransforming.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stream/MaxMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stream/MaxMin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stream/filteringList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stream/filteringList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +47,26 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "copyright"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DistinctValue">
-    <configuration name="DistinctValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.DistinctValue" />
+  <component name="RunManager" selected="Application.simpleJson">
+    <configuration name="Box" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generic.Box" />
+      <module name="Java-My-Q&amp;A" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="generic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlatteringNestedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.FlatteringNestedList" />
       <module name="Java-My-Q&amp;A" />
       <extension name="coverage">
         <pattern>
@@ -57,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MappingTransforming" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.MappingTransforming" />
+    <configuration name="LimitingResults" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.LimitingResults" />
       <module name="Java-My-Q&amp;A" />
       <extension name="coverage">
         <pattern>
@@ -70,8 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.MaxMin" />
+    <configuration name="ParallelProcessing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.ParallelProcessing" />
       <module name="Java-My-Q&amp;A" />
       <extension name="coverage">
         <pattern>
@@ -83,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="filteringList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.filteringList" />
+    <configuration name="simpleJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="json.simpleJson" />
       <module name="Java-My-Q&amp;A" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.*" />
+          <option name="PATTERN" value="json.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,10 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DistinctValue" />
-        <item itemvalue="Application.MaxMin" />
-        <item itemvalue="Application.MappingTransforming" />
-        <item itemvalue="Application.filteringList" />
+        <item itemvalue="Application.simpleJson" />
+        <item itemvalue="Application.Box" />
+        <item itemvalue="Application.ParallelProcessing" />
+        <item itemvalue="Application.LimitingResults" />
+        <item itemvalue="Application.FlatteringNestedList" />
       </list>
     </recent_temporary>
   </component>
