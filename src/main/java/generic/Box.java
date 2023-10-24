@@ -5,7 +5,7 @@ public class Box<T> {
     //Generics in Java allow you to create classes, interfaces, and methods that operate on different data types while providing type safety. Here's a simple generic class example:
     private T content;
 
-    public Box() {
+    public Box() {TTTH
 
     }
     public void add(T item) {
