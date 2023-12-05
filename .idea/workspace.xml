@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e59f130-7a83-41fe-bd97-6304ebfe8fbe" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/generic/GenericsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generic/MyGenericClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/generic/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/generic/Box.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/json/ReadJsonArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/json/ReadJsonArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +42,10 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Box">
+  <component name="RunManager" selected="Application.GenericsDemo">
     <configuration name="Box" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="generic.Box" />
-      <module name="Java-My-Q&amp;A" />
+      <module name="JavaBackend" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="generic.*" />
@@ -52,12 +56,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParallelProcessing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.ParallelProcessing" />
-      <module name="Java-My-Q&amp;A" />
+    <configuration name="GenericsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generic.GenericsDemo" />
+      <module name="JavaBackend" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.*" />
+          <option name="PATTERN" value="generic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenericsDemo" />
         <item itemvalue="Application.Box" />
         <item itemvalue="Application.creatingJsonArray" />
         <item itemvalue="Application.parsingJson" />
         <item itemvalue="Application.simpleJson" />
-        <item itemvalue="Application.ParallelProcessing" />
       </list>
     </recent_temporary>
   </component>

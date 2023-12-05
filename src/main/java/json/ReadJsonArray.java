@@ -1,2 +1,4 @@
-package json;public class ReadJsonArray {
+package json;
+public class ReadJsonArray {
+
 }
